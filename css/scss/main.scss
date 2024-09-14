@@ -1,0 +1,15 @@
+// mixins neads to be att top
+@import "./mixins/mixins-media.scss";
+@import "./mixins/mixins-typography.scss";
+@import "./mixins/mixins-buttons.scss";
+
+@import "./misc/base.scss";
+@import  "./components/wrapper.scss";
+@import  "./components/container.scss";
+@import  "./components/links.scss";
+@import  "./components/buttons.scss";
+@import  "./components/typography.scss";
+@import  "./components/banner.scss";
+
+@import "./sections/sections.scss";
+
