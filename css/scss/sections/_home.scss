@@ -5,10 +5,7 @@
 
         @include desktop {
             display: block;
-            // background-image: url('../../../images/sl-home2.png');
-            // background-size: cover;
-            // background-repeat: no-repeat;
-            // background-position: 60%;
+            
         }
 
         @media (min-width: 1700px) {
@@ -120,6 +117,12 @@
                     text-decoration: none;
                     color: var(--color-primary);
                     background-color: var(--color-light);
+                    transition: transform 0.4s ease, box-shadow 0.4s ease;
+                    &:hover {
+                        transform: translateY(-3px); 
+                        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+                    }
+
                     .solution-item {
                         h5 {
                           padding: 1rem;
@@ -267,6 +270,12 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            }
 
             .image{
                 width: 100%;
@@ -302,6 +311,7 @@
                 background-color: var(--color-primary);
                 width: 100%;
                 padding: 2rem;
+                
                 .info{
    
                     h5{

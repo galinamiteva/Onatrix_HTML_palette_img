@@ -60,6 +60,11 @@
                     color: var(--color-primary);
                     font-weight: 600;
                     text-decoration: none;
+                    
+                    &.active {
+                        color: var(--color-secondary);
+                        font-weight: bold;
+                    }
                 }
 
                 display: flex;

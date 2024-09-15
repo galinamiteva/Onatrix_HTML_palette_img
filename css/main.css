@@ -258,6 +258,10 @@ h6 {
   font-weight: 600;
   text-decoration: none;
 }
+#header .background-light .container .links a.active {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
 @media (min-width: 1400px) {
   #header .background-light .container .links {
     gap: 3rem;
@@ -405,6 +409,11 @@ h6 {
   text-decoration: none;
   color: var(--color-primary);
   background-color: var(--color-light);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+#our-services .bg-gray .container .solution a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 #our-services .bg-gray .container .solution a .solution-item h5 {
   padding: 1rem;
@@ -544,6 +553,11 @@ h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+#our-projects .projects .project:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 #our-projects .projects .project .image {
   width: 100%;
@@ -853,7 +867,6 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 6rem;
 }
 #map .container .request-box {
   position: absolute;
@@ -1305,4 +1318,4 @@ h6 {
   height: 300px;
   width: 100%;
   margin-top: 3rem;
-}/*# sourceMappingURL=main.css.map */
+}
